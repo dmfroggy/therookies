@@ -1,0 +1,71 @@
+main{
+    margin: 100px;
+    font-family: 'Quattrocento', serif;
+    font-size: 1.8em;
+    
+
+}
+p{
+    white-space: nowrap;
+    display: inline-block;
+    text-align-last:justify;
+    
+}
+h1{
+text-align: center;
+}
+nav{  
+    float: right;
+}
+
+header{
+    height: 300px;
+}
+
+#logo{
+padding-left: 15px;
+}
+
+ul{ 
+    
+    text-transform: uppercase;
+    list-style: none;
+    font-family: 'Gloria Hallelujah', cursive;
+    
+}
+
+li{
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 1px solid red;
+    display: inline-block;
+    margin-right: 14px;
+    text-align: center;
+ color:white;
+}
+
+li a:hover {
+    background-color: white;
+    color:black;
+  }
+
+li a{
+    font-weight: bold;
+    display: block;
+    transition: .3s background-color;
+}
+
+  #about h1{
+      font-weight: bold;
+      color:red;
+  }
+
+  @media screen and (min-width: 600px) {
+     li {
+      width: 160px;
+      height: 50px;
+      line-height: 50px;
+      font-size: 1.4em;
+     }
+    }
